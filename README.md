@@ -1,4 +1,6 @@
-#Exploring Shared Robot Intention 
+Exploring Shared Robot Intention 
+
+![LeafBlowing](https://learning-dynamic-manipulation.cs.princeton.edu/gifs/IMG_1082.gif "Leaf Blowing")
 
 Proposal:
 Robots often lack a good way to model each other's future goals or actions without communications. Humans typically manage this through onverbal cues about each others actions. However, robots lack this abilitly. Prior work in robot teams created a small simulation where robots equiped with physics real lead blower collaberate to push leaves from across the enviroment into a desired location. Through introducing spatial intention maps in a related work, the robots were able to succesfully blow leaves from one side to another. Spatial intention maps are grid likelihood patches which indicate where the robot is most likely to go next. Prior work has shown these maps can help robots with variable tools to co-operate to succesfully work together. 
