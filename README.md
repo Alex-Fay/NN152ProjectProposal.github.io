@@ -3,7 +3,7 @@
 ![LeafBlowing](https://learning-dynamic-manipulation.cs.princeton.edu/gifs/IMG_1082.gif "Leaf Blowing")
 
 ## Proposal:
-Robots often lack a good way to model each other's future goals or actions without communications. Humans typically manage this through onverbal cues about each others actions. However, robots lack this abilitly. Prior work in robot teams created a small simulation where robots equiped with physics real lead blower collaberate to push leaves from across the enviroment into a desired location. Through introducing spatial intention maps in a related work, the robots were able to succesfully blow leaves from one side to another. Spatial intention maps are grid likelihood patches which indicate where the robot is most likely to go next. Prior work has shown these maps can help robots with variable tools to co-operate to succesfully work together. 
+Robots often lack a good way to model each other's future goals or actions without communication. Humans typically manage this through nonverbal cues and guessing each other's intentions. Prior work in robot teams created a small simulation where robots equiped with different tools and abilities were able to succesfully collaberate together through spatial intention maps. These maps are grid likelihood patches which indicate where the robot is most likely to go next. Similar work by the same authors created a physics real leaf blower and trained the robot to succefully blow leaves into a designated area. 
 
 ![SpatialIntention](https://spatial-intention-maps.cs.princeton.edu/gifs/lifting_4-small_empty-ours.gif "Spatial Intention")
 ![Pushing](https://spatial-intention-maps.cs.princeton.edu/gifs/pushing_4-small_divider-ours.gif "Pushing")
@@ -12,7 +12,7 @@ The goal of this project is to explore how shared spatial intention maps of robo
 
 ## Goals:
 
-- Explore if shared spatial intention maps work on more complicated tasks
+- Explore if shared spatial intention maps work on more complicated tasks (leaf blowing)
 - Train with disturbances to see if robots can work around failures such as removing a robot, external gust of wind, etc
 - Gain experience with RL and NN. Potentially explore alternative ways to learn robot plans and update them
 
